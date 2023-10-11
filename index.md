@@ -8,8 +8,10 @@ layout: default
 
 
 
-# PhD in Computer Science (2021-Present)
+# Education
+## PhD in Computer Science (2021-Present)
 Oklahoma State University
+
 Stillwater, Ok, USA
 
 ## Header 2
