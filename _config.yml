@@ -4,3 +4,7 @@ plugins:
 title: [Sadia Kamal]
 logo: /assets/img/logo.png
 description: [A short description of your site's purpose]
+header_pages:
+  - publications
+
+
