@@ -10,15 +10,15 @@ layout: default
 
 # Education
 ## PhD in Computer Science (2021-Present)
-Oklahoma State University
+>Oklahoma State University
 
-Stillwater, Ok, USA
+>Stillwater, Ok, USA
 
-## Header 2
+## BSc in Computer Science (2015 - 2018)
 
-> This is a blockquote following a header.
+> American International University-Bangladesh
 >
-> When something is important enough, you do it even if the odds are not in your favor.
+> Dhaka, Bangladesh
 
 ### Header 3
 
