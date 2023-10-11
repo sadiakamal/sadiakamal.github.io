@@ -12,6 +12,10 @@ footer:
 collections:
   publications:
     output: true
+collections:
+  education:
+    output: true
+
 
 
 
