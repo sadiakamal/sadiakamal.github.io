@@ -9,9 +9,10 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/sadiakamal"
-collections:
-  publications:
-    output: true
+header_pages:
+  - education
+
+
 collections:
   education:
     output: true
