@@ -4,6 +4,11 @@ plugins:
 title: [Sadia Kamal]
 logo: /assets/img/logo.png
 description: [A short description of your site's purpose]
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/sadiakamal"
 header_pages:
   - publications
 
