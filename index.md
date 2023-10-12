@@ -6,13 +6,17 @@ layout: default
 
 [Link to another page](./another-page.html).
 
+# About Me
+
+Hi, I am Sadia Kamal, a third year PhD student at Oklahoma State University
+
 
 
 # Education
 ## PhD in Computer Science (2021-Present)
->Oklahoma State University
->
->Stillwater, Ok, USA
+Oklahoma State University
+
+Stillwater, Ok, USA
 
 ## BSc in Computer Science (2015 - 2018)
 
