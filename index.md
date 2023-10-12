@@ -38,15 +38,11 @@ layout: default
 >* Magna Cum Laude.
 >* Anwarul Abedin Leadership award(Gold Medal)
 
+# Volunteering Experience
+* Treasurer elect at BSA Stillwater 2021.
 
 
-### Small image
 
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
 
 
 
