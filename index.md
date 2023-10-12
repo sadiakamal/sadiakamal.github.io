@@ -5,13 +5,14 @@ layout: default
 **Education**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](./another-page.html).
+---
 
 # About Me
 
 Hi, I am Sadia Kamal, a third year PhD student at Oklahoma State University
 
 
-
+---
 # Education
 ## PhD in Computer Science (2021-Present)
 Oklahoma State University
