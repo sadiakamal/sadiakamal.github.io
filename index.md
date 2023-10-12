@@ -2,9 +2,7 @@
 layout: default
 ---
 
-**Education**, _italic_, or ~~strikethrough~~.
 
-[Link to another page](./another-page.html).
 ---
 
 # About Me
