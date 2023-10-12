@@ -1,6 +1,7 @@
 remote_theme: pages-themes/minimal@v0.2.0
 
 description: <a href="https://www.linkedin.com/in/sadia-kamal-9ba392171/">👔 LinkedIn</a>
+<br><br>
 <a href="https://github.com/sadiakamal">👔 Github</a>
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
