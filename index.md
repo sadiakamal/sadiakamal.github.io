@@ -7,21 +7,21 @@ layout: default
 
 # About Me
 
-Hi, I am Sadia Kamal, a third year PhD student at Oklahoma State University
+Hi, I am Sadia Kamal, a third year PhD student in the department of computer science at [Oklahoma State University](https://go.okstate.edu). I am working in the Complex Systems Lab under [Dr. Bagavathi](https://arunkumar.okstate.edu).
 
 
 ---
 # Education
 ## PhD in Computer Science (2021-Present)
-Oklahoma State University
+[Oklahoma State University](https://go.okstate.edu)
 
 Stillwater, Ok, USA
 
 ## BSc in Computer Science (2015 - 2018)
 
-> American International University-Bangladesh
->
-> Dhaka, Bangladesh
+American International University-Bangladesh
+
+Dhaka, Bangladesh
 
 ---
 # Publications
@@ -36,11 +36,14 @@ Stillwater, Ok, USA
 
 # Achievements
 
->* Outstanding CS Scholar Award 2023
->* Outstanding CS Leadership Award 2023
->* Women in Data Science(WiDS) Stillwater ambassador 2023
->* Magna Cum Laude.
->* Anwarul Abedin Leadership award(Gold Medal)
+* Outstanding CS Scholar Award 2023
+* Outstanding CS Leadership Award 2023
+* Women in Data Science(WiDS) Stillwater ambassador 2023
+* Magna Cum Laude.
+* Anwarul Abedin Leadership award(Gold Medal)
+
+# Projects
+University Rover Challenge 2018 as part of AIUB Robotic Crew(ARC)
 
 # Volunteering Experience
 * Treasurer elect at BSA Stillwater 2021.
