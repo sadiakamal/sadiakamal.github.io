@@ -25,6 +25,7 @@ Stillwater, Ok, USA
 >
 > Dhaka, Bangladesh
 
+---
 # Publications
 
 * **Kamal, S.**, Hartford, J., Willis, J., and Bagavathi, A. “Learning Unbiased News Article Embeddings: A Fair and Knowledge-Infused Approach” (Accepted at) in IEEE International Conference on Machine Learning and Applications (ICMLA), 2023
