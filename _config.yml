@@ -1,5 +1,5 @@
 remote_theme: pages-themes/minimal@v0.2.0
-repository: sadiakamal/Sadia-Kamal
+<a href="https://www.linkedin.com/in/sadia-kamal-9ba392171/">👔 LinkedIn</a>
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 title: Sadia Kamal
