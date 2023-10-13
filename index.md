@@ -33,7 +33,7 @@ Dhaka, Bangladesh
 ---
 # Publications
 
-**Kamal, S.**, Hartford, J., Willis, J., and Bagavathi, A. “Learning Unbiased News Article Embeddings: A Fair and Knowledge-Infused Approach” (Accepted at) in IEEE International Conference on Machine Learning and Applications (ICMLA), 2023
+**Kamal, S.**, Hartford, J., Willis, J., and Bagavathi, A. “Learning Unbiased News Article Embeddings: A Fair and Knowledge-Infused Approach” (Accepted at) in IEEE International Conference on Machine Learning and Applications (ICMLA), 2023. [[arxiv](https://arxiv.org/abs/2309.05981)]
 
 Tripuraneni, S. S., **Kamal, S.**, Bagavathi, A. (2023)Quantitative Analysis of Forecasting Models:In the Aspect of Online Political Bias.(Accepted at) in IEEE International Conference on Machine Learning and Applications (ICMLA), 2023. [[arxiv](https://arxiv.org/abs/2309.05589)]
 
