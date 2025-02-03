@@ -11,7 +11,7 @@ Hi, I am Sadia Kamal, a third year PhD student in the department of computer sci
 
 ---
 
-# Latest
+# Latest News
 * Worked as Reviewer for ECAI'24, reviewed 1 paper
 * Worked as Reviewer for IJCNN'24, reviewed 2 papers
 * Worked as Reviewer for LREC-COLLING'24, reviewed 3 papers
@@ -19,14 +19,6 @@ Hi, I am Sadia Kamal, a third year PhD student in the department of computer sci
 * Worked as Reviewer for ICMLA 2023, reviewed 5 papers
 * Two paper got accepted at ICMLA 2023
 
-
----
-[Education](/education)
-
----
-[Publications](/publications)
-
----
 
 # Achievements
 
@@ -46,6 +38,15 @@ Hi, I am Sadia Kamal, a third year PhD student in the department of computer sci
 
 # Volunteering Experience
 Treasurer elect at BSA Stillwater 2021.
+
+---
+[Education](/education)
+
+---
+[Publications](/publications)
+
+---
+
 
 
 
