@@ -21,10 +21,10 @@ Hi, I am Sadia Kamal, a third year PhD student in the department of computer sci
 
 
 ---
--[Education](/education)
+[Education](/education)
 
 ---
--[Publications](/publications)
+[Publications](/publications)
 
 ---
 
