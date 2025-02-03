@@ -5,9 +5,9 @@ layout: default
 
 ---
 
-# About Me
+# Home
 
-Hi, I am Sadia Kamal, a third year PhD student in the department of computer science at [Oklahoma State University](https://go.okstate.edu). I am working in the Complex Systems Lab under [Dr. Bagavathi](https://arunkumar.okstate.edu). My research interests are natural language processing, social network analysis, data mining etc.
+Hi, I am Sadia Kamal, a third year PhD student in the department of computer science at [Oklahoma State University](https://go.okstate.edu). I am working in the Complex Systems Lab under [Dr. Bagavathi](https://arunkumar.okstate.edu). My research interests are natural language processing, social network analysis, data mining etc. Welcome to my homepage.
 
 ---
 
