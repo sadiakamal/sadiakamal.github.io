@@ -7,7 +7,7 @@ layout: default
 
 # Home
 
-Hi, I am Sadia Kamal, a third year PhD student in the department of computer science at [Oklahoma State University](https://go.okstate.edu). I am working in the Complex Systems Lab under [Dr. Arunkumar Bagavathi's](https://arunkumar.okstate.edu) supervision. My research interests are natural language processing, social network analysis, data mining etc. Welcome to my homepage.
+Hi, I am Sadia Kamal, a third year PhD student in the department of computer science at [Oklahoma State University](https://go.okstate.edu). I am working in the Complex Systems Lab under [Dr. Arunkumar Bagavathi's](https://arunkumar.okstate.edu) supervision. My work focuses on natural language processing, social network analysis, and data mining, with a broader interest in extracting meaningful insights from complex data. Welcome to my homepage, where I share my research, publications, and projects.
 
 ---
 
@@ -21,6 +21,15 @@ Hi, I am Sadia Kamal, a third year PhD student in the department of computer sci
 * Received CS Outstanding Leader and Scholar award 2023
 * Worked as Reviewer for ICMLA 2023, reviewed 5 papers
 * Two paper got accepted at ICMLA 2023
+
+# Research Experience
+* Currently developing fine-tuning strategies to analyze bias shifts in LLMs(LLaMA, GPT etc.), quantifying the impact of topic-specific and entity-masked training.
+* Developed a bias-mitigated deep learning model for political stance detection in news articles, integrating external knowledge sources. Achieved 73% accuracy, surpassing baselines in unseen domains.
+* Implemented deep learning models (Transformers, Decision Trees, Random Forest), using PyTorch and TensorFlow for various tasks such as classification and regression. Specially fine-tuned \textbf{LLMs} using optimization techniques such as LoRA, QLoRA in both text and multimodal setups on multiple downstream tasks, with the goal of understanding their reasoning capabilities.
+
+# Teaching Experience & Talks
+* Gave two lectures in Representation Learning course as a guest lecturer
+* Gave a guest lecture in artificial intelligence course
 
 
 # Achievements
