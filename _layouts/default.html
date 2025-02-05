@@ -20,10 +20,10 @@
         justify-content: center; /* Centers the nav horizontally */
         gap: 1rem; /* Space between links */
       }
-      nav ul li {
+      nav li {
         display: inline;
       }
-      header nav ul li a {
+      nav a {
         text-decoration: none;
         font-weight: bold;
       }
@@ -62,6 +62,20 @@
             <li><a href="{{ "/education" | https://github.com/sadiakamal/sadiakamal.github.io/blob/main/education.md}}">Education</a></li>
           </ul>
         </nav>
+        <div style="text-align: center; margin-top: 1rem;">
+          <img src="{{ '/assets/images/my_picture.jpg' | relative_url }}" 
+               alt="My Picture" 
+               style="max-width: 150px; border-radius: 50%;">
+        </div>
+
+        <!-- Contact details -->
+        <div style="text-align: center;">
+          <p>Email: sadia.kamal@okstate.edu</p>
+          <p>LinkedIn: <a href="https://www.linkedin.com/in/sadia-kamal-9ba392171/">username</a></p>
+          <!-- Add any other contact info or social links here -->
+        </div>
+
+
       </header>
       <section>
 
