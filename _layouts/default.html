@@ -12,13 +12,18 @@
     <![endif]-->
     {% include head-custom.html %}
     <style>
-      header nav ul {
+      header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 2rem; /* adjust as needed */
+      }
+      nav ul {
         list-style-type: none;
         margin: 0;
         padding: 0;
         display: flex;
-        justify-content: center; /* Centers the nav horizontally */
-        gap: 1rem; /* Space between links */
+        gap: 1rem; /* space between links */
       }
       nav li {
         display: inline;
@@ -27,11 +32,41 @@
         text-decoration: none;
         font-weight: bold;
       }
+      /* Optional styling for your image to keep it small and circular */
+      .profile-pic {
+        max-width: 150px;
+        border-radius: 50%;
+        margin-top: 1rem;
+      }
+      /* Center the contact details under the image */
+      .contact-info {
+        text-align: center;
+        margin-top: 0.5rem;
+      }
     </style>
+    
   </head>
   <body>
     <div class="wrapper">
       <header>
+        <nav>
+          <ul>
+            <li><a href="{{ "/" | absolute_url }}">Home</a></li>
+            <li><a href="{{ "/publications" | https://github.com/sadiakamal/sadiakamal.github.io/blob/main/publications.md }}">Publications</a></li>
+            <li><a href="{{ "/education" | https://github.com/sadiakamal/sadiakamal.github.io/blob/main/education.md}}">Education</a></li>
+          </ul>
+        </nav>
+        <img 
+          src="{{ '/assets/images/sadia.jpg' | relative_url }}" 
+          alt="My Picture" 
+          class="profile-pic"
+        >
+        <!-- Contact details -->
+        <div style="text-align: center;">
+          <p>Email: <a href="sadia.kamal@okstate.edu">sadia.kamal@okstate.edu</a></p>
+          <p>LinkedIn: <a href="https://www.linkedin.com/in/sadia-kamal-9ba392171/">Sadia</a></p>
+          <!-- Add any other contact info or social links here -->
+        </div>
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
 
         {% if site.logo %}
@@ -55,20 +90,6 @@
           <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
         </ul>
         {% endif %}
-        <nav>
-          <ul>
-            <li><a href="{{ "/" | absolute_url }}">Home</a></li>
-            <li><a href="{{ "/publications" | https://github.com/sadiakamal/sadiakamal.github.io/blob/main/publications.md }}">Publications</a></li>
-            <li><a href="{{ "/education" | https://github.com/sadiakamal/sadiakamal.github.io/blob/main/education.md}}">Education</a></li>
-          </ul>
-        </nav>
-
-        <!-- Contact details -->
-        <div style="text-align: center;">
-          <p>Email: <a href="sadia.kamal@okstate.edu">sadia.kamal@okstate.edu</a></p>
-          <p>LinkedIn: <a href="https://www.linkedin.com/in/sadia-kamal-9ba392171/">Sadia</a></p>
-          <!-- Add any other contact info or social links here -->
-        </div>
 
 
       </header>
