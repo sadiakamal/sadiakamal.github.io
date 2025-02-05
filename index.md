@@ -25,7 +25,7 @@ Hi, I am Sadia Kamal, a PhD student in the department of computer science at [Ok
 # Research Experience
 * Currently developing fine-tuning strategies to analyze bias shifts in LLMs(LLaMA, GPT etc.), quantifying the impact of topic-specific and entity-masked training.
 * Developed a bias-mitigated deep learning model for political stance detection in news articles, integrating external knowledge sources. Achieved 73% accuracy, surpassing baselines in unseen domains.
-* Implemented deep learning models (Transformers, Decision Trees, Random Forest), using PyTorch and TensorFlow for various tasks such as classification and regression. Specially fine-tuned \textbf{LLMs} using optimization techniques such as LoRA, QLoRA in both text and multimodal setups on multiple downstream tasks, with the goal of understanding their reasoning capabilities.
+* Implemented deep learning models (Transformers, Decision Trees, Random Forest), using PyTorch and TensorFlow for various tasks such as classification and regression. Specially fine-tuned LLMs using optimization techniques such as LoRA, QLoRA in both text and multimodal setups on multiple downstream tasks, with the goal of understanding their reasoning capabilities.
 
 # Teaching Experience & Talks
 * Gave two lectures in Representation Learning course as a guest lecturer
@@ -49,7 +49,9 @@ Hi, I am Sadia Kamal, a PhD student in the department of computer science at [Ok
 ---
 
 # Volunteering Experience
-Treasurer elect at BSA Stillwater 2021.
+Computer Science Department representative GPSGA, OSU, 2024-25
+Cultural Secretary at (Bangladeshi Student Association)BSA, Stillwater 2024
+Treasurer elect at (Bangladeshi Student Association)BSA, Stillwater 2021.
 
 ---
 [Education](/education)
