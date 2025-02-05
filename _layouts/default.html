@@ -11,6 +11,23 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
     {% include head-custom.html %}
+    <style>
+      header nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center; /* Centers the nav horizontally */
+        gap: 1rem; /* Space between links */
+      }
+      header nav ul li {
+        display: inline;
+      }
+      header nav ul li a {
+        text-decoration: none;
+        font-weight: bold;
+      }
+    </style>
   </head>
   <body>
     <div class="wrapper">
