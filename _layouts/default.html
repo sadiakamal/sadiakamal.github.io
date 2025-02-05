@@ -40,8 +40,10 @@
       }
       /* Optional styling for your image to keep it small and circular */
       .profile-pic {
-        max-width: 150px;
+        width: 200px;     /* Increase size to make it appear bigger */
+        height: 200px;    /* Force the image to be a square */
         border-radius: 50%;
+        object-fit: cover;/* Crop/cover to maintain circular shape */
         margin-top: 1rem;
       }
       /* Center the contact details under the image */
