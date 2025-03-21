@@ -7,7 +7,7 @@ layout: default
 
 # Home
 
-Hi, I am Sadia Kamal, a PhD student in the department of computer science at [Oklahoma State University](https://go.okstate.edu). I am working in the Complex Systems Lab under [Dr. Arunkumar Bagavathi's](https://arunkumar.okstate.edu) supervision. My work focuses on natural language processing, social network analysis, and data mining, with a broader interest in extracting meaningful insights from complex data. Welcome to my homepage, where I share my research, publications, and projects.
+Hi, I am Sadia Kamal, a PhD student in the department of computer science at [Oklahoma State University](https://go.okstate.edu).My work focuses on natural language processing, social network analysis, and data mining, with a broader interest in extracting meaningful insights from complex data. Welcome to my homepage, where I share my research, publications, and projects.
 
 ---
 
