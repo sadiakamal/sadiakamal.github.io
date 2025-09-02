@@ -7,11 +7,12 @@ layout: default
 
 # Home
 
-Hi, I am Sadia Kamal, a PhD student in the department of computer science at [Oklahoma State University](https://go.okstate.edu).My work focuses on natural language processing, social network analysis, and data mining, with a broader interest in extracting meaningful insights from complex data. Welcome to my homepage, where I share my research, publications, and projects.
+Hello, I am Sadia Kamal, a PhD student in the department of computer science at [Oklahoma State University](https://go.okstate.edu).My work focuses on natural language processing, social network analysis with a broader interest in extracting meaningful insights from complex data. Welcome to my homepage, where I share my research, publications, and projects.
 
 ---
 
 # What's New?
+* Reviewed 5 papers for ICMLA'25
 * Reviewed 4 papers for Colling'25
 * Reviewed 3 papers for ICMLA'24
 * One paper got accepted at PAKDD'24
