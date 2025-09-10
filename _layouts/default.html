@@ -8,47 +8,11 @@
     {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
     {% include head-custom.html %}
-
-    <style>
-      /* Local tweaks specific to this layout (kept minimal). */
-      .name {
-        margin: 0 0 0.75rem 0;
-        font-size: 1.8rem;
-        line-height: 1.2;
-      }
-      .name a { text-decoration: none; }
-      .profile-pic {
-        width: 200px; height: 200px;
-        border-radius: 50%;
-        object-fit: cover;
-        display: block;
-        margin-bottom: 0.75rem;
-      }
-      .side-nav h2 {
-        font-size: 0.95rem;
-        text-transform: uppercase;
-        letter-spacing: 0.04em;
-        opacity: 0.8;
-        margin: 1rem 0 0.5rem;
-      }
-      .side-nav ul {
-        list-style: none;
-        padding: 0; margin: 0;
-        display: grid; gap: 0.4rem;
-      }
-      .side-nav a { text-decoration: none; font-weight: 600; }
-      .contact-icons { display: flex; gap: 12px; align-items: center; margin-top: 6px; }
-      .contact-icons img { width: 26px; height: 26px; }
-      footer { margin-top: 32px; }
-      @media (max-width: 768px) {
-        .sidebar { position: static; top: auto; }
-      }
-    </style>
   </head>
 
   <body>
     <div class="wrapper layout">
-      <!-- LEFT: Sidebar (1/3) -->
+      <!-- ============== SIDEBAR (1/3) ============== -->
       <aside class="sidebar" role="complementary" aria-label="Sidebar">
         <!-- Name ABOVE the image -->
         <h1 class="name">
@@ -57,7 +21,7 @@
           </a>
         </h1>
 
-        <!-- Image -->
+        <!-- Profile image -->
         <img
           src="{{ '/assets/img/SK.jpeg' | relative_url }}"
           alt="Profile photo"
@@ -77,26 +41,61 @@
           </div>
         </div>
 
-        <!-- Vertical sidebar nav -->
-        <nav class="side-nav" aria-label="Sections">
+        <!-- SITE SECTIONS (pages) -->
+        <nav class="side-nav" aria-label="Site sections">
           <h2>Sections</h2>
           <ul>
-            <!-- Hard-coded primary pages -->
-            <li><a href="{{ "/" | absolute_url }}">Home</a></li>
-            <li><a href="{{ "/publications" | relative_url }}">Publications</a></li>
-            <li><a href="{{ "/education" | relative_url }}">Education</a></li>
+            {% assign here = page.url | relative_url %}
 
-            <!-- Optional auto-nav: any page with `nav: true` in its front matter -->
+            {% assign home_url = "/" | relative_url %}
+            <li>
+              <a href="{{ home_url }}"
+                 {% if here == home_url %}aria-current="page" class="is-active"{% endif %}>
+                Home
+              </a>
+            </li>
+
+            {% assign pubs_url = "/publications" | relative_url %}
+            <li>
+              <a href="{{ pubs_url }}"
+                 {% if here == pubs_url or here == pubs_url | append: "/" %}aria-current="page" class="is-active"{% endif %}>
+                Publications
+              </a>
+            </li>
+
+            {% assign edu_url = "/education" | relative_url %}
+            <li>
+              <a href="{{ edu_url }}"
+                 {% if here == edu_url or here == edu_url | append: "/" %}aria-current="page" class="is-active"{% endif %}>
+                Education
+              </a>
+            </li>
+
+            <!-- Optional: any page with `nav: true` in front matter -->
             {% for p in site.pages %}
               {% if p.nav and p.title %}
-                <li><a href="{{ p.url | relative_url }}">{{ p.title }}</a></li>
+                {% assign p_url = p.url | relative_url %}
+                <li>
+                  <a href="{{ p_url }}"
+                     {% if here == p_url or here == p_url | append: "/" %}aria-current="page" class="is-active"{% endif %}>
+                    {{ p.title }}
+                  </a>
+                </li>
               {% endif %}
             {% endfor %}
           </ul>
         </nav>
+
+        <!-- ON THIS PAGE (auto-built from H2/H3 in content) -->
+        <nav class="page-toc" aria-label="On this page">
+          <h2>On this page</h2>
+          <ul id="page-toc-list">
+            <!-- Filled by JS from headings in main content -->
+          </ul>
+        </nav>
       </aside>
 
-      <!-- RIGHT: Main content (2/3) -->
+      <!-- ============== MAIN (2/3) ============== -->
       <main class="main" role="main">
         {% if site.logo %}
           <img src="{{ site.logo | relative_url }}" alt="Logo" />
@@ -120,7 +119,7 @@
           </ul>
         {% endif %}
 
-        <section>
+        <section id="content-root">
           {{ content }}
         </section>
 
@@ -137,6 +136,67 @@
       </main>
     </div>
 
-    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+    <!-- Back to Top -->
+    <a href="#top" class="back-to-top" aria-label="Back to top">↑</a>
+
+    <!-- ===== Scroll helpers (TOC builder + scrollspy + back-to-top) ===== -->
+    <script>
+      (function () {
+        // Ensure the page has a top anchor
+        if (!document.getElementById('top')) {
+          const topAnchor = document.createElement('div');
+          topAnchor.id = 'top';
+          document.body.prepend(topAnchor);
+        }
+
+        // Build TOC from h2/h3 inside #content-root
+        const content = document.getElementById('content-root');
+        const tocList = document.getElementById('page-toc-list');
+        if (content && tocList) {
+          const headings = content.querySelectorAll('h2, h3');
+          const slugify = s => s.toLowerCase()
+            .replace(/[^a-z0-9\s-]/g, '')
+            .trim()
+            .replace(/\s+/g, '-');
+
+          headings.forEach(h => {
+            if (!h.id) h.id = slugify(h.textContent);
+            const li = document.createElement('li');
+            li.className = h.tagName.toLowerCase(); // for indent styling
+            const a = document.createElement('a');
+            a.href = `#${h.id}`;
+            a.textContent = h.textContent;
+            li.appendChild(a);
+            tocList.appendChild(li);
+          });
+
+          // Scrollspy: highlight current section link
+          const links = Array.from(tocList.querySelectorAll('a'));
+          const map = new Map(links.map(a => [a.getAttribute('href').slice(1), a]));
+          const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+              const id = entry.target.id;
+              const link = map.get(id);
+              if (!link) return;
+              if (entry.isIntersecting) {
+                links.forEach(l => l.classList.remove('is-active'));
+                link.classList.add('is-active');
+              }
+            });
+          }, { rootMargin: '0px 0px -70% 0px', threshold: 0.1 });
+
+          headings.forEach(h => observer.observe(h));
+        }
+
+        // Back-to-top visibility toggle
+        const btt = document.querySelector('.back-to-top');
+        const showBTT = () => {
+          if (window.scrollY > 300) btt.classList.add('show');
+          else btt.classList.remove('show');
+        };
+        window.addEventListener('scroll', showBTT);
+        showBTT();
+      })();
+    </script>
   </body>
 </html>
