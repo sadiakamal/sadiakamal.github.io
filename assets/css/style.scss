@@ -169,3 +169,17 @@ footer { margin-top: 32px; }
   }
 }
 
+.achievements {
+  margin: 0;
+}
+.achievements dt {
+  float: left;
+  clear: left;
+  width: 120px;      /* column for dates */
+  font-weight: bold;
+  color: #333;
+}
+.achievements dd {
+  margin: 0 0 0.75rem 130px;  /* space after date column */
+}
+
