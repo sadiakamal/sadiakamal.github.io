@@ -11,30 +11,32 @@ layout: default
 I am a PhD Candidate in the department of computer science at [Oklahoma State University](https://go.okstate.edu). My work focuses mostly on natural language processing and social network analysis, currently I am interested in understanding and quantifying inherent biases in Large Language Models. I work in the [Reasoning and Artificial Intelligence (rAIson) Laboratory](https://cas.okstate.edu/computer_science/about_us/dr_sen_lab/research_team.html) under the guidance of [Dr. Atriya Sen](https://experts.okstate.edu/atriya.sen) and [Dr. Sagnik Ray Choudhury](https://sagnik.github.io). Welcome to my homepage, where I share my research, publications, and projects.
 
 ---
-
 <h2>What's New?</h2>
 <div id="whats-new">
-  <p>Sep 2025: Gave PhD Proposal Examination</p>
-  <p>Sep 2025: Reviewed 5 papers for ICMLA’25</p>
-  <p>Aug 2025: Reviewed 4 papers for COLING’25</p>
-  <p>Oct 2024: Reviewed 3 papers for ICMLA’24</p>
-  <p>Jul 2024: Awarded $260 for my talk in the AI Symposium of RET 2025</p>
-  <p>May 2024: One paper accepted at PAKDD’24</p>
-  <p>Jun 2024: Reviewer for ECAI’24 (1 paper)</p>
-  <p>Jun 2024: Reviewer for IJCNN’24 (2 papers)</p>
-  <p>May 2024: Reviewer for LREC–COLING’24 (3 papers)</p>
-  <p>Dec 2023: Received CS Outstanding Leader & Scholar Award</p>
-  <p>Nov 2023: Reviewer for ICMLA 2023 (5 papers)</p>
-  <p>Dec 2023: Two papers accepted at ICMLA 2023</p>
+  <p><span class="date">Sep 2025:</span> Gave PhD Proposal Examination</p>
+  <p><span class="date">Sep 2025:</span> Reviewed 5 papers for ICMLA’25</p>
+  <p><span class="date">Aug 2025:</span> Reviewed 4 papers for COLING’25</p>
+  <p><span class="date">Oct 2024:</span> Reviewed 3 papers for ICMLA’24</p>
+  <p><span class="date">Jul 2024:</span> Awarded $260 for my talk in the AI Symposium of RET 2025</p>
+  <p><span class="date">May 2024:</span> One paper accepted at PAKDD’24</p>
+  <p><span class="date">Jun 2024:</span> Reviewer for ECAI’24 (1 paper)</p>
+  <p><span class="date">Jun 2024:</span> Reviewer for IJCNN’24 (2 papers)</p>
+  <p><span class="date">May 2024:</span> Reviewer for LREC–COLING’24 (3 papers)</p>
+  <p><span class="date">Dec 2023:</span> Received CS Outstanding Leader & Scholar Award</p>
+  <p><span class="date">Nov 2023:</span> Reviewer for ICMLA 2023 (5 papers)</p>
+  <p><span class="date">Dec 2023:</span> Two papers accepted at ICMLA 2023</p>
 </div>
+
 
 ---
 
 <h2 id="research-experience">Research Experience</h2>
 
-* Currently developing fine-tuning strategies to analyze bias shifts in LLMs (LLaMA, GPT, etc.), quantifying the impact of topic-specific and entity-masked training.
-* Developed a bias-mitigated deep learning model for political stance detection in news articles, integrating external knowledge sources. Achieved 73% accuracy, surpassing baselines in unseen domains.
-* Implemented deep learning models (Transformers, Decision Trees, Random Forest), using PyTorch and TensorFlow for classification and regression. Fine-tuned LLMs using LoRA/QLoRA in text and multimodal setups.
+<div class="research-list">
+  <p>— Currently developing fine-tuning strategies to analyze bias shifts in LLMs (LLaMA, GPT, etc.), quantifying the impact of topic-specific and entity-masked training.</p>
+  <p>— Developed a bias-mitigated deep learning model for political stance detection in news articles, integrating external knowledge sources. Achieved 73% accuracy, surpassing baselines in unseen domains.</p>
+  <p>— Implemented deep learning models (Transformers, Decision Trees, Random Forest), using PyTorch and TensorFlow for classification and regression. Fine-tuned LLMs using LoRA/QLoRA in text and multimodal setups.</p>
+</div>
 
 ---
 
