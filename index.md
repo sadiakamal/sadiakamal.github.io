@@ -4,6 +4,7 @@ layout: default
 
 
 ---
+<div class="container">
 
 # Home
 
