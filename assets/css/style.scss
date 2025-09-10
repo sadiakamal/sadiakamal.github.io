@@ -180,4 +180,9 @@ footer { margin-top: 32px; }
     height: clamp(96px, 24vw, 130px);
   }
 }
-
+/* Highlighted dates in What's New */
+#whats-new .date {
+  font-weight: 700;
+  color: #ee7624; /* OSU orange */
+  margin-right: 4px;
+}
