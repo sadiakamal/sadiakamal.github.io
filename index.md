@@ -46,7 +46,7 @@ I am a PhD Candidate in the department of computer science at [Oklahoma State Un
 
 
 # Projects
-Science Officer in AIUB Robotic Crew(ARC) for [University Rover Challenge](https://urc.marssociety.org) 2018 as part of AIUB Robotic Crew(ARC)
+Science Officer in AIUB Robotic Crew(ARC) for [University Rover Challenge](https://urc.marssociety.org) 2018 
 
 ---
 
