@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% seo %}
+    <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+    <style>
+      .two-column-layout {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+      }
+      .left-column {
+        width: 25%;
+        padding: 20px;
+      }
+      .right-column {
+        width: 75%;
+        padding: 20px;
+      }
+      .profile-pic {
+        width: 100%;
+        height: auto;
+        border-radius: 50%;
+      }
+      h1, h2, h3, h4 {
+        margin-top: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="two-column-layout">
+      <div class="left-column">
+        <img src="{{ '/assets/img/SK.jpeg' | relative_url }}" alt="My Picture" class="profile-pic">
+        <div class="contact-info">
+          <p>Email: <a href="mailto:sadia.kamal@okstate.edu">sadia.kamal@okstate.edu</a></p>
+          <a href="https://www.linkedin.com/in/sadia-kamal-9ba392171/" target="_blank">LinkedIn</a>
+          <a href="https://scholar.google.com/citations?user=lclNrycAAAAJ&hl=en" target="_blank">Google Scholar</a>
+        </div>
+      </div>
+      <div class="right-column">
+        {{ content }}
+      </div>
+    </div>
+  </body>
+</html>
