@@ -1,18 +1,108 @@
 ---
 ---
 @import "jekyll-theme-minimal";
-/* Custom overrides */
+
+/* ===========================
+   Custom Overrides
+   =========================== */
+
+/* Two-column layout: Sidebar 1/3 | Main 2/3 */
 .layout {
   display: grid;
-  grid-template-columns: 1fr 2fr; /* Sidebar 1/3, main 2/3 */
-  gap: 20px;
+  grid-template-columns: 1fr 2fr;
+  gap: 24px;
   align-items: start;
 }
 
+/* Sidebar (image, name, contact, nav) */
 .sidebar {
-  padding: 10px;
+  position: sticky;     /* stays visible while scrolling */
+  top: 20px;            /* space from top */
+  height: fit-content;  /* shrink-wrap to contents */
+  padding-right: 8px;
 }
 
+/* Profile picture inside sidebar */
+.profile-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin-bottom: 0.75rem;
+}
+
+/* Name above image */
+.name {
+  margin: 0 0 0.75rem 0;
+  font-size: 1.8rem;
+  line-height: 1.2;
+}
+.name a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Contact section */
+.contact-info {
+  margin-top: 0.5rem;
+}
+.contact-icons {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-top: 6px;
+}
+.contact-icons img {
+  width: 26px;
+  height: 26px;
+}
+
+/* Sidebar vertical navigation */
+.side-nav h2 {
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  opacity: 0.8;
+  margin: 1rem 0 0.5rem;
+}
+.side-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 0.4rem;
+}
+.side-nav a {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* Main content (2/3) */
 .main {
-  padding: 10px;
+  padding-left: 8px;
+}
+.main .tagline {
+  margin: 8px 0 16px;
+}
+
+/* Footer spacing */
+footer {
+  margin-top: 32px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .layout {
+    grid-template-columns: 1fr; /* stack vertically */
+  }
+  .sidebar {
+    position: static; /* no sticky on small screens */
+    top: auto;
+    padding-right: 0;
+    margin-bottom: 20px;
+  }
+  .main {
+    padding-left: 0;
+  }
 }
