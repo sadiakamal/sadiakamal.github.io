@@ -7,7 +7,7 @@ layout: default
 
 # Home
 
-Hello, I am Sadia Kamal, a PhD student in the department of computer science at [Oklahoma State University](https://go.okstate.edu).My work focuses on natural language processing, social network analysis with a broader interest in extracting meaningful insights from complex data. Welcome to my homepage, where I share my research, publications, and projects.
+I am a PhD Candidate in the department of computer science at [Oklahoma State University](https://go.okstate.edu). My work focuses on natural language processing, social network analysis, currently I am interested in understanding and quantifying inherent biases in Large Language Models. I work in the [Reasoning and Artificial Intelligence (rAIson) Laboratory](https://cas.okstate.edu/computer_science/about_us/dr_sen_lab/research_team.html) under the guidance of [Dr. Atriya Sen](https://experts.okstate.edu/atriya.sen) and [Dr. Sagnik Ray Choudhury](https://sagnik.github.io). Welcome to my homepage, where I share my research, publications, and projects.
 
 ---
 
