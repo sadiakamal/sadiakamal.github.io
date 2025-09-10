@@ -12,17 +12,19 @@ I am a PhD Candidate in the department of computer science at [Oklahoma State Un
 
 ---
 
-# What's New?
-* Reviewed 5 papers for ICMLA'25
-* Reviewed 4 papers for Colling'25
-* Reviewed 3 papers for ICMLA'24
-* One paper got accepted at PAKDD'24
-* Worked as Reviewer for ECAI'24, reviewed 1 paper
-* Worked as Reviewer for IJCNN'24, reviewed 2 papers
-* Worked as Reviewer for LREC-COLLING'24, reviewed 3 papers
-* Received CS Outstanding Leader and Scholar award 2023
-* Worked as Reviewer for ICMLA 2023, reviewed 5 papers
-* Two paper got accepted at ICMLA 2023
+<h2>What's New?</h2>
+<dl class="achievements">
+  <dt>Sep 2025</dt><dd>Reviewed 5 papers for ICMLA’25</dd>
+  <dt>Aug 2025</dt><dd>Reviewed 4 papers for COLLING’25</dd>
+  <dt>Oct 2024</dt><dd>Reviewed 3 papers for ICMLA’24</dd>
+  <dt>May 2024</dt><dd>One paper accepted at PAKDD’24</dd>
+  <dt>Jun 2024</dt><dd>Reviewer for ECAI’24 (1 paper)</dd>
+  <dt>Jun 2024</dt><dd>Reviewer for IJCNN’24 (2 papers)</dd>
+  <dt>May 2024</dt><dd>Reviewer for LREC–COLLING’24 (3 papers)</dd>
+  <dt>Dec 2023</dt><dd>Received CS Outstanding Leader & Scholar Award</dd>
+  <dt>Nov 2023</dt><dd>Reviewer for ICMLA 2023 (5 papers)</dd>
+  <dt>Dec 2023</dt><dd>Two papers accepted at ICMLA 2023</dd>
+</dl>
 
 # Research Experience
 * Currently developing fine-tuning strategies to analyze bias shifts in LLMs(LLaMA, GPT etc.), quantifying the impact of topic-specific and entity-masked training.
