@@ -3,8 +3,13 @@
 
 @import "jekyll-theme-minimal";
 
-.container {
+/* This rule will control the width and centering of your main content */
+.wrapper {
   max-width: 900px;
   margin: 0 auto;
+}
+
+/* Optional: Add some padding to the content area */
+section {
   padding: 20px;
 }
