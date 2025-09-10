@@ -3,13 +3,24 @@
 
 @import "jekyll-theme-minimal";
 
-/* This rule will control the width and centering of your main content */
-.wrapper {
-  max-width: 900px;
-  margin: 0 auto;
+/* Custom two-column layout */
+body {
+  display: flex;
 }
 
-/* Optional: Add some padding to the content area */
-section {
+.left-column {
+  width: 33.33%;
   padding: 20px;
+}
+
+.right-column {
+  width: 66.66%;
+  padding: 20px;
+}
+
+.profile-pic {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  object-fit: cover;
 }
