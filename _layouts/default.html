@@ -1,43 +1,79 @@
-<body>
-  <div class="wrapper">
-    <div class="left-column">
-      <img src="{{ '/assets/img/SK.jpeg' | relative_url }}" alt="My Picture" class="profile-pic">
-      <div style="text-align: center;">
-        <p>Email: <a href="sadia.kamal@okstate.edu">sadia.kamal@okstate.edu</a></p>
-        <p style="display: flex; justify-content: center; gap: 1rem;">
-          <a href="https://www.linkedin.com/in/sadia-kamal-9ba392171/" target="_blank" rel="noopener noreferrer">
-            <img src="{{ '/assets/linkedin.png' | relative_url }}" alt="LinkedIn" style="width: 30px; height: 30px;">
-          </a>
-          <a href="https://scholar.google.com/citations?user=lclNrycAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">
-            <img src="{{ '/assets/google_scholar.png' | relative_url }}" alt="Google Scholar" style="width: 30px; height: 30px;">
-          </a>
-        </p>
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+{% seo %}
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    {% include head-custom.html %}
+    
+    <style>
+      /* Styles for the two-column layout */
+      .content-container {
+        display: flex;
+        flex-wrap: wrap; /* Allows columns to wrap on smaller screens */
+      }
+      .left-column {
+        width: 33.33%;
+        padding: 20px;
+      }
+      .right-column {
+        width: 66.66%;
+        padding: 20px;
+      }
+      @media (max-width: 768px) {
+        .left-column, .right-column {
+          width: 100%; /* Columns stack on top of each other on mobile devices */
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="content-container">
+        <div class="left-column">
+          <img src="{{ '/assets/img/SK.jpeg' | relative_url }}" alt="My Picture" class="profile-pic">
+          <div style="text-align: center;">
+            <p>Email: <a href="sadia.kamal@okstate.edu">sadia.kamal@okstate.edu</a></p>
+            <p style="display: flex; justify-content: center; gap: 1rem;">
+              <a href="https://www.linkedin.com/in/sadia-kamal-9ba392171/" target="_blank" rel="noopener noreferrer">
+                <img src="{{ '/assets/linkedin.png' | relative_url }}" alt="LinkedIn" style="width: 30px; height: 30px;">
+              </a>
+              <a href="https://scholar.google.com/citations?user=lclNrycAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">
+                <img src="{{ '/assets/google_scholar.png' | relative_url }}" alt="Google Scholar" style="width: 30px; height: 30px;">
+              </a>
+            </p>
+          </div>
+        </div>
+        <div class="right-column">
+          <header>
+            <h1 style="text-align: center;">
+              <a href="{{ "/" | absolute_url }}">
+                {{ site.title | default: site.github.repository_name }}
+              </a>
+            </h1>
+            <nav>
+              <ul>
+                <li><a href="{{ "/" | absolute_url }}">Home</a></li>
+                <li><a href="{{ "/publications" | relative_url }}">Publications</a></li>
+                <li><a href="{{ "/education" | relative_url }}">Education</a></li>
+              </ul>
+            </nav>
+          </header>
+          <section>
+            {{ content }}
+          </section>
+          <footer>
+            {% if site.github.is_project_page %}
+            <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+            {% endif %}
+            <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+          </footer>
+        </div>
       </div>
-      </div>
-    <div class="right-column">
-      <header>
-        <h1 style="text-align: center;">
-          <a href="{{ "/" | absolute_url }}">
-            {{ site.title | default: site.github.repository_name }}
-          </a>
-        </h1>
-        <nav>
-          <ul>
-            <li><a href="{{ "/" | absolute_url }}">Home</a></li>
-            <li><a href="{{ "/publications" | https://github.com/sadiakamal/sadiakamal.github.io/blob/main/publications.md }}">Publications</a></li>
-            <li><a href="{{ "/education" | https://github.com/sadiakamal/sadiakamal.github.io/blob/main/education.md}}">Education</a></li>
-          </ul>
-        </nav>
-      </header>
-      <section>
-        {{ content }}
-      </section>
-      <footer>
-        {% if site.github.is_project_page %}
-        <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        {% endif %}
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
     </div>
-  </div>
-</body>
+    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+  </body>
+</html>
