@@ -4,7 +4,7 @@ layout: default
 
 
 ---
-<div class="container">
+
 
 # Home
 
@@ -66,7 +66,7 @@ Treasurer elect at (Bangladeshi Student Association)BSA, Stillwater 2021.
 [Publications](/publications)
 
 ---
-</div>
+
 
 
 
