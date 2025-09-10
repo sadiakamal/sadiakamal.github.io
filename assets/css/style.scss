@@ -1,5 +1,3 @@
----
----
 @import "jekyll-theme-minimal";
 
 /* ===========================
@@ -57,7 +55,6 @@ html { scroll-behavior: smooth; }
 
 /* ===========================
    Left "Sections" nav
-   (homepage: filled with index.md h2s by JS)
    =========================== */
 .side-nav h2 {
   font-size: 0.95rem;
@@ -93,14 +90,32 @@ html { scroll-behavior: smooth; }
 footer { margin-top: 32px; }
 
 /* ===========================
-   What's New? — keep only first 10 entries
-   Your list is a <dl> with alternating <dt>/<dd>.
-   Hide dt/dd from the 11th pair onwards via nth-of-type.
+   What's New? — one-liners
+   Place your items inside:
+   <div id="whats-new">
+     <p>Sep 2025: Reviewed 5 papers for ICMLA’25</p>
+     ...
+   </div>
    =========================== */
-.achievements dt:nth-of-type(n+11),
-.achievements dd:nth-of-type(n+11) {
-  display: none;
+#whats-new p { margin: 0 0 0.5rem 0; }
+
+/* Show only first 10 by default (JS adds a .hidden class too) */
+#whats-new p.hidden { display: none; }
+
+/* Toggle button */
+.whatsnew-toggle {
+  margin-top: 8px;
+  padding: 6px 10px;
+  font: inherit;
+  font-weight: 600;
+  border: 1px solid #ddd;
+  background: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: box-shadow 0.15s ease, transform 0.05s ease;
 }
+.whatsnew-toggle:hover { box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+.whatsnew-toggle:active { transform: translateY(1px); }
 
 /* ===========================
    Responsive
