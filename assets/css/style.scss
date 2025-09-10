@@ -130,3 +130,52 @@ footer { margin-top: 32px; }
   }
   .main { padding-left: 0; }
 }
+
+/* --- Keep the page from getting too wide --- */
+.wrapper {
+  max-width: 980px;     /* matches the minimal theme nicely */
+  margin: 0 auto;
+  padding: 0 16px;      /* a little breathing room on edges */
+}
+
+/* --- Profile photo: smaller + responsive cap --- */
+.profile-pic {
+  /* replace the fixed 200x200 with a flexible clamp */
+  width: clamp(110px, 18vw, 150px);
+  height: clamp(110px, 18vw, 150px);
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin-bottom: 0.75rem;
+}
+
+/* --- Social icons a touch smaller --- */
+.contact-icons img {
+  width: 22px;
+  height: 22px;
+}
+
+/* --- Global safety: images in main content never overflow --- */
+.main img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0.5rem 0;
+}
+
+/* Optional: cap tall figures selectively by adding class="content-img" in HTML */
+.main img.content-img {
+  max-height: 420px;    /* adjust if you want smaller/larger caps */
+  object-fit: contain;
+}
+
+/* Tighten the grid a bit on narrow screens */
+@media (max-width: 768px) {
+  .layout { gap: 16px; }
+  .name { font-size: 1.5rem; }
+  .profile-pic {
+    width: clamp(96px, 24vw, 130px);
+    height: clamp(96px, 24vw, 130px);
+  }
+}
+
