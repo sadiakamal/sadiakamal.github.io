@@ -1,5 +1,5 @@
 ---
-layout: sadia_layout.html
+layout: default.html
 ---
 
 
