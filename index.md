@@ -14,7 +14,9 @@ I am a PhD Candidate in the department of computer science at [Oklahoma State Un
 
 <h2>What's New?</h2>
 <dl class="achievements">
+  <dt>Sep 2025</dt><dd>Gave PhD Proposal Examination</dd>
   <dt>Sep 2025</dt><dd>Reviewed 5 papers for ICMLA’25</dd>
+  <dt>July 2024</dt><dd>Awarded $260 for my talk in the AI symposium of RET 2025</dd>
   <dt>Aug 2025</dt><dd>Reviewed 4 papers for COLLING’25</dd>
   <dt>Oct 2024</dt><dd>Reviewed 3 papers for ICMLA’24</dd>
   <dt>May 2024</dt><dd>One paper accepted at PAKDD’24</dd>
