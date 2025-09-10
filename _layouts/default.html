@@ -43,11 +43,21 @@
 
         <!-- SECTIONS (Left nav) -->
         {% assign here = page.url | relative_url %}
-        {% if here == "/" %}
-          <!-- On the homepage: build the sections list from headings in index.md -->
+        {% if here == "/" or here == "/index.html" %}
+          <!-- On HOME: fixed order, anchors to sections in index.md -->
           <nav class="side-nav" aria-label="Sections">
             <h2>Sections</h2>
-            <ul id="sections-list"></ul>
+            <ul>
+              <li><a href="{{ "/" | relative_url }}">Home</a></li>
+              <li><a href="#whats-new">What’s New</a></li>
+              <li><a href="#research-experience">Research Experience</a></li>
+              <li><a href="#teaching-experience-and-talks">Teaching Experience and Talks</a></li>
+              <li><a href="#achievements">Achievements</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#volunteering-experience">Volunteering Experience</a></li>
+              <li><a href="#education">Education</a></li>
+              <li><a href="#publications">Publications</a></li>
+            </ul>
           </nav>
         {% else %}
           <!-- On other pages: show site pages -->
@@ -66,7 +76,6 @@
               <li><a href="{{ edu_url }}"
                      {% if here == edu_url or here == edu_url | append: "/" %}aria-current="page" class="is-active"{% endif %}>Education</a></li>
 
-              <!-- Optional: auto-include pages with nav: true -->
               {% for p in site.pages %}
                 {% if p.nav and p.title %}
                   {% assign p_url = p.url | relative_url %}
@@ -123,32 +132,39 @@
       </main>
     </div>
 
-    <!-- ===== Small script: build left Sections (home only) from headings ===== -->
-    {% if here == "/" %}
+    <!-- Toggle for one-liner "What's New?" (show more/less) -->
     <script>
       (function () {
-        const content = document.getElementById('content-root');
-        const list = document.getElementById('sections-list');
-        if (!content || !list) return;
+        const wrap = document.querySelector('#whats-new');
+        if (!wrap) return;
 
-        // Use top-level sections only (h2 on the homepage)
-        const headings = content.querySelectorAll('h2');
-        const slugify = s => s.toLowerCase()
-          .replace(/[^a-z0-9\s-]/g, '')
-          .trim()
-          .replace(/\s+/g, '-');
+        const items = Array.from(wrap.querySelectorAll('p'));
+        if (items.length <= 10) return;
 
-        headings.forEach(h => {
-          if (!h.id) h.id = slugify(h.textContent);
-          const li = document.createElement('li');
-          const a = document.createElement('a');
-          a.href = `#${h.id}`;
-          a.textContent = h.textContent;
-          li.appendChild(a);
-          list.appendChild(li);
+        // Hide beyond 10 by default
+        items.forEach((p, i) => { if (i >= 10) p.classList.add('hidden'); });
+
+        // Button
+        const btn = document.createElement('button');
+        btn.className = 'whatsnew-toggle';
+        btn.type = 'button';
+        btn.setAttribute('aria-expanded', 'false');
+        btn.textContent = 'Show more';
+        wrap.insertAdjacentElement('afterend', btn);
+
+        btn.addEventListener('click', () => {
+          const expanded = btn.getAttribute('aria-expanded') === 'true';
+          if (expanded) {
+            items.forEach((p, i) => { if (i >= 10) p.classList.add('hidden'); });
+            btn.setAttribute('aria-expanded', 'false');
+            btn.textContent = 'Show more';
+          } else {
+            items.forEach(p => p.classList.remove('hidden'));
+            btn.setAttribute('aria-expanded', 'true');
+            btn.textContent = 'Show less';
+          }
         });
       })();
     </script>
-    {% endif %}
   </body>
 </html>
