@@ -17,7 +17,7 @@ Welcome to my homepage, where I share my research, publications, and latest upda
 <div id="whats-new">
   <p><span class="date">Sep 2025:</span> Successfully completed PhD Proposal Defense!</p>
   <p><span class="date">Aug 2025:</span> Reviewed 5 papers for ICMLA’25</p>
-  <p><span class="date">Aug 2025:</span> New <a href="https://arxiv.org/pdf/2506.22493" target="_blank">Preprint</a> alert!</p>
+  <p><span class="date">Aug 2025:</span> New <a href="https://arxiv.org/pdf/2506.22493" target="_blank">Preprint</a> alert! In this work, we have thoroughly investigated the robusness of bias quantifying measures for LLMs.</p>
   <p><span class="date">Jul 2025:</span> Awarded $260 for my talk in the AI Symposium of RET 2025</p>
   <p><span class="date">Jun 2025:</span> One paper got accepted in ASONAM'25, Congrats to <a href="https://copotronicrifat.github.io" target="_blank">Rifat!</a></p>
   <p><span class="date">May 2025:</span> Got selected as Student Leader in <a href="https://cas.okstate.edu/computer_science/ret/" target="_blank">NSF RET 2025!</a></p>
