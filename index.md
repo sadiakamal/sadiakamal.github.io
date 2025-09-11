@@ -16,7 +16,9 @@ I am a PhD Candidate in the department of computer science at [Oklahoma State Un
   <p><span class="date">Sep 2025:</span> Finished PhD Proposal Examination</p>
   <p><span class="date">Sep 2025:</span> Reviewed 5 papers for ICMLA’25</p>
   <p><span class="date">Jul 2025:</span> Awarded $260 for my talk in the AI Symposium of RET 2025</p>
-  <p><span class="date">Jun 2025:</span> One paper got accepted in ASONAM'25</p>
+  <p><span class="date">Jun 2025:</span> One paper got accepted in ASONAM'25, Congrats to [Rifat](https://copotronicrifat.github.io)</p>
+  <p><span class="date">May 2025:</span> Travelled to Pittsburgh for the summer school, YINZ!</p>
+  <p><span class="date">Mar 2025:</span> Got selected for the Summer Institute in Computational Social Science[SICSS CMU](https://sicss.io/2025/cmu/people)2025</p>
   <p><span class="date">Aug 2024:</span> Reviewed 4 papers for COLING’25</p>
   <p><span class="date">Oct 2024:</span> Reviewed 3 papers for ICMLA’24</p>
   <p><span class="date">May 2024:</span> One paper accepted at PAKDD’24</p>
