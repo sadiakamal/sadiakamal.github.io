@@ -8,18 +8,18 @@ layout: default
 
 # About Me
 
-I am a PhD Candidate in the [department of computer science](https://cas.okstate.edu/computer_science/) at [Oklahoma State University](https://go.okstate.edu). My work focuses mostly on natural language processing and social network analysis, currently I am interested in understanding and quantifying inherent biases in Large Language Models. I work in the [Reasoning and Artificial Intelligence (rAIson) Laboratory](https://cas.okstate.edu/computer_science/about_us/dr_sen_lab/research_team.html) under the guidance of [Dr. Atriya Sen](https://experts.okstate.edu/atriya.sen) and [Dr. Sagnik Ray Choudhury](https://sagnik.github.io). Welcome to my homepage, where I share my research, publications, and latest updates.
+I am a PhD Candidate in the [Department of computer science](https://cas.okstate.edu/computer_science/) at [Oklahoma State University](https://go.okstate.edu). My work focuses mostly on natural language processing and social network analysis, currently I am interested in understanding and quantifying inherent biases in Large Language Models. I work in the [Reasoning and Artificial Intelligence (rAIson) Laboratory](https://cas.okstate.edu/computer_science/about_us/dr_sen_lab/research_team.html) under the guidance of [Dr. Atriya Sen](https://experts.okstate.edu/atriya.sen) and [Dr. Sagnik Ray Choudhury](https://sagnik.github.io). Welcome to my homepage, where I share my research, publications, and latest updates.
 
 ---
 <h2>What's New?</h2>
 <div id="whats-new">
-  <p><span class="date">Sep 2025:</span> Successfully completed PhD Proposal Examination.</p>
+  <p><span class="date">Sep 2025:</span> Successfully completed PhD Proposal Defense!</p>
   <p><span class="date">Aug 2025:</span> Reviewed 5 papers for ICMLA’25</p>
   <p><span class="date">Aug 2025:</span> New <a href="https://arxiv.org/pdf/2506.22493" target="_blank">Preprint</a> alert!</p>
   <p><span class="date">Jul 2025:</span> Awarded $260 for my talk in the AI Symposium of RET 2025</p>
   <p><span class="date">Jun 2025:</span> One paper got accepted in ASONAM'25, Congrats to <a href="https://copotronicrifat.github.io" target="_blank">Rifat!</a></p>
+  <p><span class="date">May 2025:</span> Got selected as Student Leader in <a href="https://cas.okstate.edu/computer_science/ret/" target="_blank">NSF RET 2025!</a></p>
   <p><span class="date">May 2025:</span> Travelled to Pittsburgh for the summer school, YINZ!</p>
-  <p><span class="date">May 2025:</span> Got selected as Student Leader in NSF RET 2025!</p>
   <p><span class="date">Mar 2025:</span> Got selected for the Summer Institute in Computational Social Science <a href="https://sicss.io/2025/cmu/people" target="_blank">SICSS CMU 2025</a></p>
   <p><span class="date">Aug 2024:</span> Reviewed 4 papers for COLING’25</p>
   <p><span class="date">Oct 2024:</span> Reviewed 3 papers for ICMLA’24</p>
