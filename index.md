@@ -8,7 +8,9 @@ layout: default
 
 # About Me
 
-I am a PhD Candidate in the [Department of computer science](https://cas.okstate.edu/computer_science/) at [Oklahoma State University](https://go.okstate.edu). My work focuses mostly on natural language processing and social network analysis, currently I am interested in understanding and quantifying inherent biases in Large Language Models. I work in the [Reasoning and Artificial Intelligence (rAIson) Laboratory](https://cas.okstate.edu/computer_science/about_us/dr_sen_lab/research_team.html) under the guidance of [Dr. Atriya Sen](https://experts.okstate.edu/atriya.sen) and [Dr. Sagnik Ray Choudhury](https://sagnik.github.io). Welcome to my homepage, where I share my research, publications, and latest updates.
+I am a PhD Candidate in the [Department of computer science](https://cas.okstate.edu/computer_science/) at [Oklahoma State University](https://go.okstate.edu). My work focuses mostly on natural language processing and social network analysis, currently I am interested in understanding and quantifying inherent biases in Large Language Models. I work in the [Reasoning and Artificial Intelligence (rAIson) Laboratory](https://cas.okstate.edu/computer_science/about_us/dr_sen_lab/research_team.html) under the guidance of [Dr. Atriya Sen](https://experts.okstate.edu/atriya.sen) and [Dr. Sagnik Ray Choudhury](https://sagnik.github.io).
+
+Welcome to my homepage, where I share my research, publications, and latest updates.
 
 ---
 <h2>What's New?</h2>
