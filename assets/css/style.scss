@@ -83,3 +83,32 @@ footer { margin-top: 32px; }
   .name { font-size: 1.5rem; }
   .profile-pic { width: clamp(96px, 24vw, 130px) !important; height: clamp(96px, 24vw, 130px) !important; }
 }
+
+/* --- KILL THE THEME'S FLOAT/WIDTH LIMITS INSIDE OUR GRID --- */
+.layout header,
+.layout section,
+.layout footer {
+  float: none !important;
+  width: auto !important;
+  max-width: none !important;
+  margin: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+/* Make sure the main column can actually expand */
+.layout .main {
+  max-width: none !important;
+  min-width: 0;                 /* prevents overflow-based shrinking */
+}
+
+/* Ensure the actual content area isn't capped by the theme */
+.layout .main > #content-root {
+  width: 100% !important;
+  max-width: none !important;
+  margin: 0 !important;
+}
+
+/* Optional: tighten spacing if the middle still feels roomy */
+.layout { gap: 24px; }          /* was 32px in some versions */
+
