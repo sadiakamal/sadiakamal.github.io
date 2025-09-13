@@ -186,3 +186,18 @@ footer { margin-top: 32px; }
   color: #ee7624; /* OSU orange */
   margin-right: 4px;
 }
+
+/* --- Wide full-screen layout --- */
+.wrapper {
+  max-width: none;   /* remove fixed 980px */
+  margin: 0;         /* no centering */
+  padding: 0;        /* no side padding */
+  width: 100%;       /* take full width */
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 250px 1fr;  /* sidebar fixed, main expands */
+  gap: 32px;                         /* space between sidebar and main */
+}
+
