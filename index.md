@@ -101,9 +101,9 @@ Dhaka, Bangladesh
 
 <h2 id="publications">Publications</h2>
 
-**Kamal, Sadia**, Lalu Prasad Yadav Prakash, S. M. Rafiuddin, Mohammed Rakib, Atriya Sen, and Sagnik Ray Choudhury. [["A Detailed Factor Analysis for the Political Compass Test: Navigating Ideologies of Large Language Models."](https://arxiv.org/pdf/2506.22493) arXiv preprint arXiv:2506.22493 (2025).
+**Kamal, Sadia**, Lalu Prasad Yadav Prakash, S. M. Rafiuddin, Mohammed Rakib, Atriya Sen, and Sagnik Ray Choudhury. ["A Detailed Factor Analysis for the Political Compass Test: Navigating Ideologies of Large Language Models."](https://arxiv.org/pdf/2506.22493) arXiv preprint arXiv:2506.22493 (2025).
 
-Rafiuddin, S. M., **Kamal,S** et al. [["AdaptiSent: Context-Aware Adaptive Attention for Multimodal Aspect-Based Sentiment Analysis."](https://arxiv.org/pdf/2507.12695?)] arXiv preprint arXiv:2507.12695 (2025).
+Rafiuddin, S. M., **Kamal,S** et al. ["AdaptiSent: Context-Aware Adaptive Attention for Multimodal Aspect-Based Sentiment Analysis."](https://arxiv.org/pdf/2507.12695?) arXiv preprint arXiv:2507.12695 (2025).
 
 Rafiuddin, S.M., Rakib, M., **Kamal, S.**, Bagavathi, A. (2024).[[Exploiting Adaptive Contextual Masking for Aspect-Based Sentiment Analysis.](https://link.springer.com/chapter/10.1007/978-981-97-2266-2_12#citeas)] In: Yang, DN., Xie, X., Tseng, V.S., Pei, J., Huang, JW., Lin, J.CW. (eds) Advances in Knowledge Discovery and Data Mining. PAKDD 2024. Lecture Notes in Computer Science(), vol 14650. Springer, Singapore.
 
