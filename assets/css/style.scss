@@ -2,43 +2,43 @@
 ---
 @import "jekyll-theme-minimal";
 
-/* ===========================
-   Base UX
-   =========================== */
+/* ========== Base ========== */
 html { scroll-behavior: smooth; }
+body { margin: 0; }
 
-/* ===========================
-   Layout: Sidebar 1/3 | Main 2/3
-   =========================== */
+/* ========== Full-width wrapper (no big gutters) ========== */
+.wrapper {
+  max-width: none !important;  /* override theme */
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* ========== Two-column grid: 240px | fluid ========== */
 .layout {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  gap: 24px;
+  display: grid !important;
+  grid-template-columns: 240px minmax(0, 1fr) !important;
+  gap: 32px;
   align-items: start;
 }
 
-/* ===========================
-   Sidebar
-   =========================== */
+/* Sidebar */
 .sidebar {
-  position: sticky;      /* stays visible while scrolling */
+  position: sticky;
   top: 20px;
   height: fit-content;
+  max-width: 240px;
   padding-right: 8px;
 }
 
-/* Name above image */
-.name {
-  margin: 0 0 0.75rem 0;
-  font-size: 1.8rem;
-  line-height: 1.2;
-}
+/* Name */
+.name { margin: 0 0 0.75rem 0; font-size: 1.8rem; line-height: 1.2; }
 .name a { text-decoration: none; color: inherit; }
 
-/* Profile picture */
+/* Profile photo (smaller + responsive) */
 .profile-pic {
-  width: 200px;
-  height: 200px;
+  width: clamp(110px, 18vw, 150px) !important;
+  height: clamp(110px, 18vw, 150px) !important;
   border-radius: 50%;
   object-fit: cover;
   display: block;
@@ -47,171 +47,39 @@ html { scroll-behavior: smooth; }
 
 /* Contact */
 .contact-info { margin-top: 0.5rem; }
-.contact-icons {
-  display: flex;
-  gap: 12px;
-  align-items: center;
-  margin-top: 6px;
-}
-.contact-icons img { width: 26px; height: 26px; }
+.contact-icons { display: flex; gap: 12px; align-items: center; margin-top: 6px; }
+.contact-icons img { width: 22px; height: 22px; }
 
-/* ===========================
-   Left "Sections" nav
-   =========================== */
+/* Left “Sections” nav */
 .side-nav h2 {
-  font-size: 0.95rem;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-  opacity: 0.8;
-  margin: 1rem 0 0.5rem;
+  font-size: 0.95rem; text-transform: uppercase; letter-spacing: 0.04em;
+  opacity: 0.8; margin: 1rem 0 0.5rem;
 }
-.side-nav ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: grid;
-  gap: 0.4rem;
-}
-.side-nav a {
-  text-decoration: none;
-  font-weight: 600;
-}
-.side-nav a[aria-current="page"],
-.side-nav a.is-active {
-  font-weight: 800;
-  border-left: 3px solid #ee7624; /* accent */
-  padding-left: 8px;
-  background: rgba(0,0,0,0.04);
+.side-nav ul { list-style: none; padding: 0; margin: 0; display: grid; gap: 0.4rem; }
+.side-nav a { text-decoration: none; font-weight: 600; }
+.side-nav a[aria-current="page"], .side-nav a.is-active {
+  font-weight: 800; border-left: 3px solid #ee7624; padding-left: 8px; background: rgba(0,0,0,0.04);
 }
 
-/* ===========================
-   Main area
-   =========================== */
-.main { padding-left: 8px; }
+/* Main column (fluid) */
+.main { padding-left: 8px; max-width: none !important; }
 .main .tagline { margin: 8px 0 16px; }
 footer { margin-top: 32px; }
 
-/* ===========================
-   What's New? — one-liners
-   Place your items inside:
-   <div id="whats-new">
-     <p>Sep 2025: Reviewed 5 papers for ICMLA’25</p>
-     ...
-   </div>
-   =========================== */
+/* Content images never overflow */
+.main img { max-width: 100%; height: auto; display: block; margin: 0.5rem 0; }
+/* Optional cap for tall figures: add class="content-img" */
+.main img.content-img { max-height: 420px; object-fit: contain; }
+
+/* What's New? one-liners + colored dates */
 #whats-new p { margin: 0 0 0.5rem 0; }
+#whats-new p.hidden { display: none; }         /* used by JS toggle */
+#whats-new .date { font-weight: 700; color: #ee7624; margin-right: 4px; }
 
-/* Show only first 10 by default (JS adds a .hidden class too) */
-#whats-new p.hidden { display: none; }
-
-/* Toggle button */
-.whatsnew-toggle {
-  margin-top: 8px;
-  padding: 6px 10px;
-  font: inherit;
-  font-weight: 600;
-  border: 1px solid #ddd;
-  background: #fff;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: box-shadow 0.15s ease, transform 0.05s ease;
-}
-.whatsnew-toggle:hover { box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
-.whatsnew-toggle:active { transform: translateY(1px); }
-
-/* ===========================
-   Responsive
-   =========================== */
+/* Responsive */
 @media (max-width: 768px) {
-  .layout { grid-template-columns: 1fr; }
-  .sidebar {
-    position: static;
-    top: auto;
-    padding-right: 0;
-    margin-bottom: 20px;
-  }
-  .main { padding-left: 0; }
-}
-
-/* --- Keep the page from getting too wide --- */
-.wrapper {
-  max-width: 1200px;     /* matches the minimal theme nicely */
-  margin: 0 auto;
-  padding: 0 16px;      /* a little breathing room on edges */
-}
-
-/* --- Profile photo: smaller + responsive cap --- */
-.profile-pic {
-  /* replace the fixed 200x200 with a flexible clamp */
-  width: clamp(110px, 18vw, 150px);
-  height: clamp(110px, 18vw, 150px);
-  border-radius: 50%;
-  object-fit: cover;
-  display: block;
-  margin-bottom: 0.75rem;
-}
-
-/* --- Social icons a touch smaller --- */
-.contact-icons img {
-  width: 22px;
-  height: 22px;
-}
-
-/* --- Global safety: images in main content never overflow --- */
-.main img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 0.5rem 0;
-}
-
-/* Optional: cap tall figures selectively by adding class="content-img" in HTML */
-.main img.content-img {
-  max-height: 420px;    /* adjust if you want smaller/larger caps */
-  object-fit: contain;
-}
-
-/* Tighten the grid a bit on narrow screens */
-@media (max-width: 768px) {
-  .layout { gap: 16px; }
+  .layout { grid-template-columns: 1fr !important; gap: 16px; }
+  .sidebar { position: static; top: auto; padding-right: 0; margin-bottom: 20px; max-width: none; }
   .name { font-size: 1.5rem; }
-  .profile-pic {
-    width: clamp(96px, 24vw, 130px);
-    height: clamp(96px, 24vw, 130px);
-  }
+  .profile-pic { width: clamp(96px, 24vw, 130px) !important; height: clamp(96px, 24vw, 130px) !important; }
 }
-/* Highlighted dates in What's New */
-#whats-new .date {
-  font-weight: 700;
-  color: #ee7624; /* OSU orange */
-  margin-right: 4px;
-}
-
-/* --- Wide full-screen layout --- */
-.wrapper {
-  max-width: none;   /* remove fixed 980px */
-  margin: 0;         /* no centering */
-  padding: 0;        /* no side padding */
-  width: 100%;       /* take full width */
-}
-
-.layout {
-  display: grid;
-  grid-template-columns: 250px 1fr;  /* sidebar fixed, main expands */
-  gap: 32px;                         /* space between sidebar and main */
-}
-/* Make sidebar fixed width, main takes the rest */
-.layout {
-  display: grid;
-  grid-template-columns: 240px 1fr; /* sidebar 240px, rest expands */
-  gap: 32px; /* adjust spacing between sidebar and main */
-}
-
-.sidebar {
-  max-width: 240px; /* keep sidebar from stretching */
-}
-
-.main {
-  max-width: none; /* allow full use of remaining space */
-}
-
