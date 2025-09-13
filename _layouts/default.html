@@ -7,6 +7,8 @@
 
     {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
     {% include head-custom.html %}
   </head>
 
@@ -30,16 +32,19 @@
 
         <!-- Contact -->
         <div class="contact-info">
-          <p>Email: <a href="mailto:sadia.kamal@okstate.edu">sadia.kamal@okstate.edu</a></p>
-          <div class="contact-icons">
-            <a href="https://www.linkedin.com/in/sadia-kamal-9ba392171/" target="_blank" rel="noopener noreferrer">
-              <img src="{{ '/assets/linkedin.png' | relative_url }}" alt="LinkedIn">
-            </a>
-            <a href="https://scholar.google.com/citations?user=lclNrycAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">
-              <img src="{{ '/assets/google_scholar.png' | relative_url }}" alt="Google Scholar">
-            </a>
+            <p><i class="fa-solid fa-envelope"></i> <a href="mailto:sadia.kamal@okstate.edu">sadia.kamal@okstate.edu</a></p>
+            <p><i class="fa-solid fa-envelope"></i> <a href="mailto:second.email@okstate.edu">second.email@okstate.edu</a></p>
+            <p><i class="fa-solid fa-location-dot"></i> Stillwater, OK</p>
+            <div class="contact-icons">
+              <a href="https://www.linkedin.com/in/sadia-kamal-9ba392171/" target="_blank" rel="noopener noreferrer">
+                <img src="{{ '/assets/linkedin.png' | relative_url }}" alt="LinkedIn">
+              </a>
+              <a href="https://scholar.google.com/citations?user=lclNrycAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">
+                <img src="{{ '/assets/google_scholar.png' | relative_url }}" alt="Google Scholar">
+              </a>
+            </div>
           </div>
-        </div>
+
 
         <!-- SECTIONS (Left nav) -->
         {% assign here = page.url | relative_url %}
