@@ -6,23 +6,40 @@
 html { scroll-behavior: smooth; }
 body { margin: 0; }
 
-/* ========== Full-width wrapper (no big gutters) ========== */
+/* ========== Reset the theme's wrapper (we'll center the grid ourselves) ========== */
 .wrapper {
-  max-width: none !important;  /* override theme */
+  max-width: none !important;
   width: 100% !important;
   margin: 0 !important;
   padding: 0 !important;
 }
 
-/* ========== Two-column grid: 240px | fluid ========== */
-.layout {
+/* ========== Centered grid container with subtle gutters ========== */
+/* Your HTML uses: <div class="wrapper layout">, so target that element */
+.wrapper.layout {
+  /* overall grid stays 240px | fluid, but now it's centered with side whitespace */
+  width: min(1200px, 92vw) !important;  /* adjust 1200 to taste (1100–1400) */
+  margin: 0 auto !important;            /* center horizontally */
+  padding: 0 16px !important;           /* a bit of breathing room on very small screens */
   display: grid !important;
   grid-template-columns: 240px minmax(0, 1fr) !important;
-  gap: 32px;
+  gap: 28px;                             /* space between sidebar and main */
   align-items: start;
 }
 
-/* Sidebar */
+/* ========== Neutralize theme's legacy layout inside our grid ========== */
+.wrapper.layout header,
+.wrapper.layout section,
+.wrapper.layout footer {
+  float: none !important;
+  width: auto !important;
+  max-width: none !important;
+  margin: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+/* ========== Sidebar ========== */
 .sidebar {
   position: sticky;
   top: 20px;
@@ -31,7 +48,6 @@ body { margin: 0; }
   padding-right: 8px;
 }
 
-/* Name */
 .name { margin: 0 0 0.75rem 0; font-size: 1.8rem; line-height: 1.2; }
 .name a { text-decoration: none; color: inherit; }
 
@@ -61,8 +77,8 @@ body { margin: 0; }
   font-weight: 800; border-left: 3px solid #ee7624; padding-left: 8px; background: rgba(0,0,0,0.04);
 }
 
-/* Main column (fluid) */
-.main { padding-left: 8px; max-width: none !important; }
+/* ========== Main column (fluid within centered grid) ========== */
+.main { padding-left: 8px; max-width: none !important; min-width: 0; }
 .main .tagline { margin: 8px 0 16px; }
 footer { margin-top: 32px; }
 
@@ -71,72 +87,18 @@ footer { margin-top: 32px; }
 /* Optional cap for tall figures: add class="content-img" */
 .main img.content-img { max-height: 420px; object-fit: contain; }
 
-/* What's New? one-liners + colored dates */
+/* ========== What's New? one-liners + colored dates ========== */
 #whats-new p { margin: 0 0 0.5rem 0; }
 #whats-new p.hidden { display: none; }         /* used by JS toggle */
 #whats-new .date { font-weight: 700; color: #ee7624; margin-right: 4px; }
 
-/* Responsive */
+/* ========== Responsive ========== */
+@media (max-width: 1024px) {
+  .wrapper.layout { width: min(1000px, 94vw) !important; gap: 24px; }
+}
 @media (max-width: 768px) {
-  .layout { grid-template-columns: 1fr !important; gap: 16px; }
+  .wrapper.layout { grid-template-columns: 1fr !important; width: 94vw !important; gap: 16px; }
   .sidebar { position: static; top: auto; padding-right: 0; margin-bottom: 20px; max-width: none; }
   .name { font-size: 1.5rem; }
   .profile-pic { width: clamp(96px, 24vw, 130px) !important; height: clamp(96px, 24vw, 130px) !important; }
-}
-
-/* --- KILL THE THEME'S FLOAT/WIDTH LIMITS INSIDE OUR GRID --- */
-.layout header,
-.layout section,
-.layout footer {
-  float: none !important;
-  width: auto !important;
-  max-width: none !important;
-  margin: 0 !important;
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-}
-
-/* Make sure the main column can actually expand */
-.layout .main {
-  max-width: none !important;
-  min-width: 0;                 /* prevents overflow-based shrinking */
-}
-
-/* Ensure the actual content area isn't capped by the theme */
-.layout .main > #content-root {
-  width: 100% !important;
-  max-width: none !important;
-  margin: 0 !important;
-}
-
-/* Optional: tighten spacing if the middle still feels roomy */
-.layout { gap: 24px; }          /* was 32px in some versions */
-
-/* === Center the grid and add side gutters === */
-/* Pick ONE of these widths by uncommenting it. 1200px is a good default. */
-.layout {
-  /* overall grid still 240px | fluid, but now centered with gutters */
-  width: min(1200px, 92vw);   /* <- change 1200 to 1100 or 1400 if you prefer */
-  margin: 0 auto;             /* center the grid */
-  padding: 0 16px;            /* small breathing room on very small screens */
-  grid-template-columns: 240px minmax(0, 1fr) !important;
-  gap: 28px;
-}
-
-/* Keep paragraphs readable on ultra-wide screens, but don’t box it in */
-.main {
-  max-width: none;    /* let main use all space inside the centered grid */
-  min-width: 0;       /* prevents overflow-based shrinking */
-}
-
-/* (We keep the earlier float/width neutralizers active) */
-.layout header,
-.layout section,
-.layout footer {
-  float: none !important;
-  width: auto !important;
-  max-width: none !important;
-  margin: 0 !important;
-  padding-left: 0 !important;
-  padding-right: 0 !important;
 }
