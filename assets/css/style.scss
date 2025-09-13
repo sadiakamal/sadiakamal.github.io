@@ -112,3 +112,31 @@ footer { margin-top: 32px; }
 /* Optional: tighten spacing if the middle still feels roomy */
 .layout { gap: 24px; }          /* was 32px in some versions */
 
+/* === Center the grid and add side gutters === */
+/* Pick ONE of these widths by uncommenting it. 1200px is a good default. */
+.layout {
+  /* overall grid still 240px | fluid, but now centered with gutters */
+  width: min(1200px, 92vw);   /* <- change 1200 to 1100 or 1400 if you prefer */
+  margin: 0 auto;             /* center the grid */
+  padding: 0 16px;            /* small breathing room on very small screens */
+  grid-template-columns: 240px minmax(0, 1fr) !important;
+  gap: 28px;
+}
+
+/* Keep paragraphs readable on ultra-wide screens, but don’t box it in */
+.main {
+  max-width: none;    /* let main use all space inside the centered grid */
+  min-width: 0;       /* prevents overflow-based shrinking */
+}
+
+/* (We keep the earlier float/width neutralizers active) */
+.layout header,
+.layout section,
+.layout footer {
+  float: none !important;
+  width: auto !important;
+  max-width: none !important;
+  margin: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
