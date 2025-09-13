@@ -17,7 +17,7 @@ Welcome to my homepage, where I share my research, publications, and latest upda
 <div id="whats-new">
   <p><span class="date">Sep 2025:</span> Successfully completed PhD Proposal Defense!</p>
   <p><span class="date">Aug 2025:</span> Reviewed 5 papers for ICMLA’25</p>
-  <p><span class="date">Aug 2025:</span> New <a href="https://arxiv.org/pdf/2506.22493" target="_blank">Preprint</a> alert! In this work, we have thoroughly investigated the robusness of bias quantifying measures for LLMs.</p>
+  <p><span class="date">Aug 2025:</span> New <a href="https://arxiv.org/pdf/2506.22493" target="_blank">Preprint</a> alert! In this work, we have thoroughly investigated the robustness of bias quantifying measures for LLMs.</p>
   <p><span class="date">Jul 2025:</span> Awarded $260 for my talk in the AI Symposium of RET 2025</p>
   <p><span class="date">Jun 2025:</span> One paper got accepted in ASONAM'25, Congrats to <a href="https://copotronicrifat.github.io" target="_blank">Rifat!</a></p>
   <p><span class="date">May 2025:</span> Got selected as Student Leader in <a href="https://cas.okstate.edu/computer_science/ret/" target="_blank">NSF RET 2025!</a></p>
@@ -100,6 +100,12 @@ Dhaka, Bangladesh
 ---
 
 <h2 id="publications">Publications</h2>
+
+**Kamal, Sadia**, Lalu Prasad Yadav Prakash, S. M. Rafiuddin, Mohammed Rakib, Atriya Sen, and Sagnik Ray Choudhury. [["A Detailed Factor Analysis for the Political Compass Test: Navigating Ideologies of Large Language Models."](https://arxiv.org/pdf/2506.22493) arXiv preprint arXiv:2506.22493 (2025).
+
+Rafiuddin, S. M., **Kamal,S** et al. [["AdaptiSent: Context-Aware Adaptive Attention for Multimodal Aspect-Based Sentiment Analysis."](https://arxiv.org/pdf/2507.12695?)] arXiv preprint arXiv:2507.12695 (2025).
+
+Rafiuddin, S.M., Rakib, M., **Kamal, S.**, Bagavathi, A. (2024).[[Exploiting Adaptive Contextual Masking for Aspect-Based Sentiment Analysis.](https://link.springer.com/chapter/10.1007/978-981-97-2266-2_12#citeas)] In: Yang, DN., Xie, X., Tseng, V.S., Pei, J., Huang, JW., Lin, J.CW. (eds) Advances in Knowledge Discovery and Data Mining. PAKDD 2024. Lecture Notes in Computer Science(), vol 14650. Springer, Singapore.
 
 **Kamal, S.**, Hartford, J., Willis, J., and Bagavathi, A. “Learning Unbiased News Article Embeddings: A Fair and Knowledge-Infused Approach” (Accepted at) in IEEE International Conference on Machine Learning and Applications (ICMLA), 2023. [[arxiv](https://arxiv.org/abs/2309.05981)]
 
