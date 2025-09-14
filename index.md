@@ -15,7 +15,7 @@ Welcome to my homepage, where I share my research, publications, and latest upda
 ---
 <h2>What's New?</h2>
 <div id="whats-new">
-  <p><span class="date">Sep 2025:</span>Secured runner-up position in the Women’s Doubles category at the International Student Organization (ISO) Badminton Tournament, Oklahoma State University</p>
+  <p><span class="date">Sep 2025:</span> Secured runner-up position in the Women’s Doubles category at the International Student Organization (ISO) Badminton Tournament, Oklahoma State University, goPokes!</p>
   <p><span class="date">Sep 2025:</span> Successfully completed PhD Proposal Defense!</p>
   <p><span class="date">Aug 2025:</span> Reviewed 5 papers for ICMLA’25</p>
   <p><span class="date">Aug 2025:</span> New <a href="https://arxiv.org/pdf/2506.22493" target="_blank">Preprint</a> alert! In this work, we have thoroughly investigated the robustness of bias quantifying measures for LLMs.</p>
