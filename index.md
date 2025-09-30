@@ -42,7 +42,7 @@ Welcome to my homepage, where I share my research, publications, and latest upda
 <h2 id="research-experience">Research Experience</h2>
 
 <div class="research-list">
-  <p>— Currently developing fine-tuning strategies to analyze bias shifts in LLMs (LLaMA, GPT, etc.), quantifying the impact of topic-specific and entity-masked training.</p>
+  <p>— Currently analyzing robustness of bias measuring techniques to measure inherent biases of open-source LLMs(LLaMA, Mistral, Gemma etc.)</p>
   <p>— Developed a bias-mitigated deep learning model for political stance detection in news articles, integrating external knowledge sources. Achieved 73% accuracy, surpassing baselines in unseen domains.</p>
   <p>— Implemented deep learning models (Transformers, Decision Trees, Random Forest), using PyTorch and TensorFlow for classification and regression. Fine-tuned LLMs using LoRA/QLoRA in text and multimodal setups.</p>
 </div>
