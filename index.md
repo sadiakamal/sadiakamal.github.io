@@ -15,7 +15,7 @@ Welcome to my homepage, where I share my research, publications, and latest upda
 ---
 <h2>What's New?</h2>
 <div id="whats-new">
-  <p><span class="date">Oct 2025:</span> One paper got accepted to the AACL-IJCNLP 2025 main conference. Here is the <a href="https://arxiv.org/pdf/2506.22493" target="_blank">Preprint</a> and codebase coming soon!
+  <p><span class="date">Oct 2025:</span> One paper got accepted to the AACL-IJCNLP 2025 main conference. Here is the <a href="https://arxiv.org/pdf/2506.22493" target="_blank">Preprint</a> and codebase coming soon!</p> 
   <p><span class="date">Sep 2025:</span> Will serve on the Scientific Committee of LREC 2026</p> 
   <p><span class="date">Sep 2025:</span> Secured runner-up position in the Women’s Doubles category at the International Student Organization (ISO) Badminton Tournament, Oklahoma State University, goPokes!</p>
   <p><span class="date">Sep 2025:</span> Successfully completed PhD Proposal Defense!</p>
