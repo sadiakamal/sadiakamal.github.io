@@ -8,7 +8,7 @@ layout: default
 
 # About Me
 
-I am a PhD Candidate in the [Department of computer science](https://cas.okstate.edu/computer_science/) at [Oklahoma State University](https://go.okstate.edu). My work focuses mostly on Natural Language Processing and Social Network Analysis, with a current focus on understanding and quantifying inherent biases in Large Language Models. I work in the [Reasoning and Artificial Intelligence (rAIson) Laboratory](https://cas.okstate.edu/computer_science/about_us/dr_sen_lab/research_team.html) under the guidance of [Dr. Atriya Sen](https://experts.okstate.edu/atriya.sen) and [Dr. Sagnik Ray Choudhury](https://sagnik.github.io). Prior to OSU, I completed my bachelor's degree in Computer Science at AIUB, where I graduated Magna Cum Laude (Silver) and received a Gold Medal for Leadership.
+I am a PhD Candidate in the [Department of computer science](https://cas.okstate.edu/computer_science/) at [Oklahoma State University](https://go.okstate.edu). My work focuses mostly on Natural Language Processing and Social Network Analysis, with a current focus on understanding and quantifying inherent biases in Large Language Models. I work in the [Reasoning and Artificial Intelligence (rAIson) Laboratory](https://cas.okstate.edu/computer_science/about_us/dr_sen_lab/research_team.html) under the guidance of [Dr. Atriya Sen](https://experts.okstate.edu/atriya.sen) and [Dr. Sagnik Ray Choudhury](https://sagnik.github.io). Prior to OSU, I completed my bachelor's degree in Computer Science at [AIUB](https://www.aiub.edu), where I graduated with Magna Cum Laude (Silver) and received a Gold Medal for Leadership.
 
 Welcome to my homepage, where I share my research, publications, and latest updates.
 
