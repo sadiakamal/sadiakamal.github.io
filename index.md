@@ -76,7 +76,7 @@ Welcome to my homepage, where I share my research, publications, and latest upda
 
 <h2 id="projects">Projects</h2>
 
-Science Officer in AIUB Robotic Crew (ARC) for the [University Rover Challenge](https://urc.marssociety.org) 2018
+Science Officer in [AIUB Robotic Crew (ARC 2018)](https://www.aiub.edu/aiub-robotic-crew-arc) for the [University Rover Challenge](https://urc.marssociety.org) 2018
 
 ---
 
