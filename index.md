@@ -81,13 +81,13 @@ Science Officer in [AIUB Robotic Crew (ARC 2018)](https://www.aiub.edu/aiub-robo
 ---
 
 <h2 id="volunteering-experience">Volunteering Experience</h2>
-
+Into The Streets, 2025
 Feedback Provider, 4th annual OSU Undergraduate Research Symposium  
 Research Mentor, ACM Spring 2025 Hackathon  
 Computer Science Department Representative, GPSGA OSU (2024–25)  
 Director of Outreach, CSGSA (2024–2025)  
-Cultural Secretary, Bangladeshi Student Association (BSA) Stillwater 2024  
-Treasurer Elect, BSA Stillwater 2021
+Cultural Secretary, Bangladeshi Student Association (BSA) Stillwater, 2024  
+Treasurer Elect, Bangladeshi Student Association (BSA) Stillwater, 2021
 
 ---
 
