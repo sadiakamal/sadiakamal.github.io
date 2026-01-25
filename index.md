@@ -54,11 +54,11 @@ Welcome to my homepage, where I share my research, publications, and latest upda
 
 <h2 id="teaching-experience-and-talks">Teaching Experience and Talks</h2>
 
-Instruction & Training | NSF RET (2025): Led a week-long training session for high-school teachers on AI/ML fundamentals, designing a curriculum with hands-on modules adaptable for K-12 classrooms.
+**Instruction & Training** — **NSF RET (2025)**: Led a week-long training session for high-school teachers on AI/ML fundamentals, designing a curriculum with hands-on modules adaptable for K-12 classrooms.
 
-Student Mentorship | Graduate & Undergraduate: Mentored M.S. and NSF REU students on research projects involving sentiment analysis, political polarization modeling, and algorithmic bias.
+**Student Mentorship** — **Graduate & Undergraduate**: Mentored M.S. and NSF REU students on research projects involving sentiment analysis, political polarization modeling, and algorithmic bias.
 
-Guest Lecturing: Delivered specialized lectures on "Algorithmic Bias in ML" (Ethics of AI), "Hadoop Fundamentals" (Cloud Computing), "Intro to Neural Networks," and "Modern NLP Architectures".
+**Guest Lecturing** — **CS & Philosophy Departments**: Delivered specialized lectures on "Algorithmic Bias in ML" (Ethics of AI), "Hadoop Fundamentals" (Cloud Computing), "Intro to Neural Networks," and "Modern NLP Architectures".
 
 
 ---
