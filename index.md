@@ -54,12 +54,13 @@ Welcome to my homepage, where I share my research, publications, and latest upda
 
 <h2 id="teaching-experience-and-talks">Teaching Experience and Talks</h2>
 
-* Taught High School Teachers Basics of AI & ML (RET 2025)
-* Mentored Masters and Undergrad Students
-* Guest lectures in Ethics of AI
-* Guest lectures in Cloud Computing & Distributed Systems
-* Guest lectures in Representation Learning
-* Guest lecture in Artificial Intelligence
+Instruction & Training | NSF RET (2025): Led a week-long training session for high-school teachers on AI/ML fundamentals, designing a curriculum with hands-on modules adaptable for K-12 classrooms.
+
+
+Student Mentorship | Graduate & Undergraduate: Mentored M.S. and NSF REU students on research projects involving sentiment analysis, political polarization modeling, and algorithmic bias.
+
+Guest Lecturing: Delivered specialized lectures on "Algorithmic Bias in ML" (Ethics of AI), "Hadoop Fundamentals" (Cloud Computing), "Intro to Neural Networks," and "Modern NLP Architectures".
+
 
 ---
 
