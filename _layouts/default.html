@@ -19,6 +19,33 @@
     </script>
 
     {% include head-custom.html %}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <style>
+      body {
+        /* This applies the Inter font and modern fallbacks for all text */
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        line-height: 1.6; /* Improves readability for long text like research and bio */
+        color: #333;
+      }
+
+      h1, h2, h3, h4, h5, h6 {
+        /* Makes your section headings bold and distinct */
+        font-weight: 700;
+        color: #111;
+        margin-top: 1.5em;
+      }
+
+      /* Optional: Makes the "What's New" dates slightly bolder */
+      .date {
+        font-weight: 500;
+        color: #555;
+      }
+      </style>
   </head>
 
   <body>
