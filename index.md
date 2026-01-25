@@ -76,7 +76,7 @@ Welcome to my homepage, where I share my research, publications, and latest upda
 
 <h2 id="projects">Projects</h2>
 
-Science Officer in [AIUB Robotic Crew (ARC 2018)](https://www.aiub.edu/aiub-robotic-crew-arc) for the [University Rover Challenge](https://urc.marssociety.org) 2018
+Science Officer in [AIUB Robotic Crew (ARC 2018)](https://www.aiub.edu/aiub-robotic-crew-arc) for the [University Rover Challenge](https://urc.marssociety.org),2018, Mars Desert Research Station, Utah — Led the science team in designing and executing soil analysis and life-detection experiments. [check here for more details](https://aiub.edu/aiub-robotic-crew-arc-completes-journey-to-university-rover-challenge-urc-2018)
 
 ---
 
