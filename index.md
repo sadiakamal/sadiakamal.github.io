@@ -65,11 +65,12 @@ Welcome to my homepage, where I share my research, publications, and latest upda
 
 <h2 id="achievements">Achievements</h2>
 
-* Outstanding CS Scholar Award 2023
-* Outstanding CS Leadership Award 2023
-* Women in Data Science (WiDS) Stillwater Ambassador 2023
-* Magna Cum Laude
-* Anwarul Abedin Leadership Award (Gold Medal)
+* Travel Grant, Summer Institute in Computational Social Science (SICSS-CMU) (2025) — Awarded funding to attend the summer program at Carnegie Mellon University.
+* Outstanding CS Scholar Award, Oklahoma State University (2023)
+* Outstanding CS Leadership Award, Oklahoma State University (2023)
+* Women in Data Science (WiDS) Stillwater Ambassador, 2023
+* Magna Cum Laude, American International University-Bangladesh (2018)
+* Anwarul Abedin Leadership Award (Gold Medal), American International University-Bangladesh (2018)
 
 ---
 
