@@ -8,13 +8,16 @@ layout: default
 
 # About Me
 
-I am a PhD Candidate in the [Department of computer science](https://cas.okstate.edu/computer_science/) at [Oklahoma State University](https://go.okstate.edu). My research in the [Reasoning and Artificial Intelligence (rAIson) Laboratory](https://cas.okstate.edu/computer_science/about_us/dr_sen_lab/research_team.html) supervised by [Dr. Atriya Sen](https://experts.okstate.edu/atriya.sen) and co-supervised by [Dr. Sagnik Ray Choudhury](https://sagnik.github.io), combines Natural Language Processing and Social Network Analysis. Right now, I am especially focused on finding and measuring the biases that get built into Large Language Models.
+I am an Assistant Professor in Computer Science at [Brevard College](https://brevard.edu). I did my PhD in the [Department of computer science](https://cas.okstate.edu/computer_science/) at [Oklahoma State University](https://go.okstate.edu), where I worked in the [Reasoning and Artificial Intelligence (rAIson) Laboratory](https://cas.okstate.edu/computer_science/about_us/dr_sen_lab/research_team.html) under [Dr. Atriya Sen](https://experts.okstate.edu/atriya.sen) and [Dr. Sagnik Ray Choudhury](https://sagnik.github.io). My research combines Natural Language Processing and Social Network Analysis, and right now I'm focused on finding and measuring the biases built into Large Language Models.
 
 Beyond academia, I have worked in a few different roles. I previously served as an Innovation Officer at [EduBlock.co](https://www.facebook.com/edublock.co/), where I led strategy and investor pitching , and as an Intern at [AI Robotics Asia Ltd.](https://www.facebook.com/airobotics.asia/), focusing on product design and technical reporting. I completed my bachelor's degree in Computer Science at [AIUB](https://www.aiub.edu), where I graduated Magna Cum Laude and received a Gold Medal for Leadership. Welcome to my homepage, where I share my research, publications, and latest updates.
 
 ---
 <h2>What's New?</h2>
 <div id="whats-new">
+  <p><span class="date">Aug 2026:</span> Joined Brevard College as an Assistant Professor in Computer Science!!</p>
+  <p><span class="date">Jul 2026:</span> Successfully defended my PhD Dissertation! goPokes!!</p>
+  <p><span class="date">Apr 2026:</span> Served as a judge at OSU Undergraduate Research Symposium</p>
   <p><span class="date">Mar 2026:</span> Will serve on the Program Committee of ICTAI 2026</p>
   <p><span class="date">Nov 2025:</span> Reviewed 3 papers for LREC’26</p>
   <p><span class="date">Oct 2025:</span> Gave two guest lectures on the topic race & gender in AI and algoithmic bias in Ethics of AI course. A very special thanks to <a href="https://cas.okstate.edu/awards/faculty/faculty_spotlight/heather_stewart.html" target="_blank">Dr. Heather Stewart</a> for this opportunity!</p> 
